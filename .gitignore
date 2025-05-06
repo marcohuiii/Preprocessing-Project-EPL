@@ -1,0 +1,43 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Virtual environment
+env/
+venv/
+ENV/
+.env/
+.venv/
+
+# Data files
+*.csv
+*.tsv
+*.xlsx
+*.xls
+*.parquet
+*.feather
+*.h5
+
+# Ignore raw data (you can remove this if you want raw data tracked)
+data/raw/
+
+# MacOS system files
+.DS_Store
+
+# VS Code settings
+.vscode/
+
+# Logs
+*.log
+
+# Environment files
+*.env
+
+# Python packaging
+*.egg-info/
+dist/
+build/
