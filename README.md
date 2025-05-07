@@ -14,7 +14,6 @@ This repository contains a cleaned and structured dataset of English Premier Lea
 - `data/`
   - `raw/` – Original downloaded dataset
   - `processed/` – Cleaned dataset (CSV or Parquet)
-  - `README.md` – Notes about sources and changes
 
 - `eda/`
   - `exploratory.ipynb` – Initial exploration & visual checks
@@ -35,6 +34,7 @@ This repository contains a cleaned and structured dataset of English Premier Lea
 
 2. **Cleaning Steps**
    - Renamed and standardized column names
+   - Concat datasets for different seasons
    - Converted date fields
    - Handled missing values
    - Normalized categorical values
