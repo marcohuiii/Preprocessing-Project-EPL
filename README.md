@@ -10,22 +10,23 @@ This repository contains a cleaned and structured dataset of English Premier Lea
 
 ## 📁 Folder Structure
 
-├── data/
-│ ├── raw/ # Original downloaded dataset
-│ ├── processed/ # Cleaned dataset (CSV or Parquet)
-│ └── README.md # Notes about sources and changes
-│
-├── eda/
-│ └── exploratory.ipynb # Initial exploration & visual checks
-│
-├── scripts/
-│ └── clean_data.py # Python scripts for preprocessing
-│
-├── notebooks/
-│ └── preprocessing.ipynb # Main notebook documenting the process
-│
-├── .gitignore
-└── README.md
+
+- `data/`
+  - `raw/` – Original downloaded dataset
+  - `processed/` – Cleaned dataset (CSV or Parquet)
+  - `README.md` – Notes about sources and changes
+
+- `eda/`
+  - `exploratory.ipynb` – Initial exploration & visual checks
+
+- `scripts/`
+  - `clean_data.py` – Python scripts for preprocessing
+
+- `notebooks/`
+  - `preprocessing.ipynb` – Main notebook documenting the process
+
+- `.gitignore`
+- `README.md`
 
 ## 🧼 Preprocessing Workflow
 
