@@ -1,14 +1,27 @@
-# Premier League Data Preprocessing Project ⚽
+# English Premier League (EPL) Match Data Preprocessing Project ⚽
 
-This repository contains a cleaned and structured dataset of English Premier League (EPL) football data, designed for easy use in analytics and data visualization projects. The aim is to provide a reliable and well-preprocessed dataset that others can use as a foundation for machine learning, dashboards, and other data science work.
+## Objective
 
-## 📌 Project Purpose
+This project focuses on cleaning and preprocessing English Premier League (EPL) match data to produce a well-structured, analysis-ready dataset.
+The goal is to simulate a real-world data analyst workflow where raw, inconsistent data is transformed into a reliable resource — enabling downstream insights, modeling, or visualization.
 
-- ✅ Practice and demonstrate data preprocessing skills
-- 📊 Enable others to explore, analyze, and visualize EPL team performance
-- 🧹 Provide a semi-processed dataset to save time for other data analysts or students
+## Business & Learning Context
 
-## 📁 Folder Structure
+In both business and academic settings, access to clean data is a major barrier to good analysis. This project serves two purposes:
+
+Business simulation: Mimicking what analysts in sports, betting, or media companies do to make match data usable.
+
+Community support: Providing a high-quality starting point for those who want to analyze EPL data without having to do all the tedious cleaning themselves.
+
+## Business & Learning Context
+
+In both business and academic settings, access to clean data is a major barrier to good analysis. This project serves two purposes:
+
+Business simulation: Mimicking what analysts in sports, betting, or media companies do to make match data usable.
+
+Community support: Providing a high-quality starting point for those who want to analyze EPL data without having to do all the tedious cleaning themselves.
+
+## Folder Structure
 
 
 - `data/`
@@ -27,43 +40,45 @@ This repository contains a cleaned and structured dataset of English Premier Lea
 - `.gitignore`
 - `README.md`
 
-## 🧼 Preprocessing Workflow
+## Key Steps in This Project
 
-1. **Data Sourcing**  
-   - Sourced from [Football-Data.co.uk](https://www.football-data.co.uk/englandm.php) under Creative Commons license.
+- Initial Exploration: Review of data types, missing values, and column descriptions.
 
-2. **Cleaning Steps**
-   - Renamed and standardized column names
-   - Concat datasets for different seasons
-   - Converted date fields
-   - Handled missing values
-   - Normalized categorical values
-   - Exported as `processed/epl_data_clean.csv`
+- Column Refinement: Removal of redundant or irrelevant fields.
 
-3. **Validation**
-   - Summary stats & null value checks
-   - Outlier detection (simple thresholds)
+- Date Standardization: Proper conversion of match date formats.
 
-## 📊 Suggested Use Cases
+- Missing Value Handling: Identification and removal of rows with incomplete data.
 
-- Team performance over time
-- Home vs. away win rate analysis
-- Visualizing league standings by season
-- Prediction models using historical data
+- Column Reordering: For better readability and logical flow.
 
-## 🛠️ Tools Used
+- Data Type Casting: Ensuring numerical and categorical consistency across all features.
+
+- Exporting Cleaned Data: Final version is saved for reuse and public access.
+
+
+## Tools Used
 
 - Python (Pandas, NumPy)
 - Jupyter Notebook
-- Matplotlib / Seaborn
-- Git + GitHub
+- Git for version control
 
-## 📜 License
+
+## Use Cases
+
+- Perform exploratory data analysis (EDA)
+- Build predictive models (e.g., match outcome, goal prediction)
+- Create dashboards using Tableau or Power BI
+- Explore trends in team or player performance
+- Simulate betting strategies or fantasy football analytics
+
+
+## License
 
 This project is licensed under the [MIT License](LICENSE).  
 Please check original data source terms for use in commercial projects.
 
-## 🤝 Contributions
+## Contributions
 
 Pull requests are welcome! If you want to build on this or suggest improvements, feel free to fork the repo and raise an issue.
 
